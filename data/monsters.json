@@ -1,0 +1,176 @@
+{
+    
+    "green" : [
+        {
+            "name" : "Cursed Hags",
+            "attacks" : [ { "damage" : 3 } ],
+            "abilities" : [
+                "poison"
+            ],
+            "armor" : 5,
+            "fame" : 3,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Diggers",
+            "attacks" : [ { "damage" : 3 } ],
+            "abilities" : [
+                "fortified"
+            ],
+            "armor" : 3,
+            "fame" : 2,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Ironclads",
+            "attacks" : [ { "damage" : 3 } ],
+            "abilities" : [
+                "brutal"
+            ],
+            "armor" : 3,
+            "resistances" : "physical",
+            "fame" : 4,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Orc Skirmishers",
+            "attacks" : [ { "damage" : 1 }, { "damage" : 1 } ],
+            "armor" : 4,
+            "fame" : 2,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Orc Stone Throwers",
+            "attacks" : [ { "damage" : 7 } ],
+            "abilities" : [ "cumbersome", "fortified" ],
+            "armor" : 2,
+            "resistances" : "physical",
+            "fame" : 4,
+            "expansion" :"lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Orc Summoners",
+            "attacks" : [ { "attackType" : "summon brown" }],
+            "armor" : 4,
+            "fame" : 4,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Orc Trackers",
+            "attacks" : [ { "damage" : 4 }],
+            "abilities" : [ "assassination", "elusive" ],
+            "armor" : 3,
+            "fame" : 3,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Orc War Beasts",
+            "attacks" : [ { "damage" : 3 }],
+            "abilities" : [ "brutal", "unfortified" ],
+            "resistances" : [ "fire", "ice" ],
+            "armor" : 5,
+            "fame" : 3,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Prowlers",
+            "attacks" : [ { "damage" : 3 } ],
+            "armor" : 4,
+            "fame" : 2,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Wolf Riders",
+            "attacks" : [ { "damage" : 3 } ],
+            "abilities" : [ "swiftness" ],
+            "armor" : 4,
+            "fame" : 3,
+            "expansion" : "base",
+            "quantity" : 2
+        }
+    ],
+    "brown" : [
+        {
+            "name" : "Crypt Worm",
+            "attacks" : [ { "damage" : 6 } ],
+            "abilities" : [ "fortified" ],
+            "armor" : 6,
+            "fame" : 5,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Gargoyle",
+            "attacks" : [ { "damage" : 5 } ],
+            "armor" : 4,
+            "resistances" : [ "physical" ],
+            "fame" : 5,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Hydra",
+            "attacks" : [ { "damage" : 2 }, { "damage" : 2 }, { "damage" : 2 } ],
+            "armor" : 6,
+            "resistances" : [ "ice" ],
+            "fame" : 5,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Manticore",
+            "attacks" : [ { "damage" : 4 } ],
+            "abilities" : [ "poison", "assassination", "swiftness" ],
+            "armor" : 6,
+            "fame" : 5,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Medusa",
+            "attacks" : [ { "damage" : 6 } ],
+            "abilities" : [ "paralyze" ],
+            "armor" : 4,
+            "resistances" : [ "fire" ],
+            "fame" : 5,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Minotaur",
+            "attacks" : [ { "damage" : 5 } ],
+            "armor" : 5,
+            "abilities" : [ "brutal" ],
+            "fame" : 4,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Shadow",
+            "attacks" : [ { "damage" : 4, "attackType" : "cold fire" } ],
+            "abilities" : [ "arcane immunity", "elusive" ],
+            "armor" : 4,
+            "fame" : 4,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Werewolf",
+            "attacks" : [ { "damage" : 7 } ],
+            "armor" : 5,
+            "abilities" : [ "swiftness" ],
+            "fame" : 5,
+            "expansion" : "base",
+            "quantity" : 2
+        }
+    ]
+}
