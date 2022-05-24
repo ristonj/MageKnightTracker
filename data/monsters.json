@@ -172,5 +172,102 @@
             "expansion" : "base",
             "quantity" : 2
         }
+    ],
+    "grey" : [
+        {
+            "name" : "Crossbowmen",
+            "attacks" : [ { "damage" : 4 } ],
+            "abilities" : [ "swiftness" ],
+            "armor" : 4,
+            "fame" : 3,
+            "expansion" : "base",
+            "quantity" : 3
+        },
+        {
+            "name" : "Golems",
+            "attacks" : [ { "damage" : 2 } ],
+            "armor" : 5,
+            "resistances" : [ "physical" ],
+            "fame" : 4,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Heroes (blue)",
+            "attacks" : [ { "damage" : 3 }, { "damage" : 3, "attackType" : "ice" } ],
+            "armor" : 4,
+            "resistances" : [ "ice" ],
+            "fame" : 5,
+            "reputation" : -1,
+            "expansion" : "lost legion",
+            "quantity" : 1
+        },
+        {
+            "name" : "Heroes (green)",
+            "attacks" : [ { "damage" : 5 }, { "damage" : 3 } ],
+            "abilities" : [ "fortified" ],
+            "armor" : 4,
+            "fame" : 5,
+            "reputation" : -1,
+            "expansion" : "lost legion",
+            "quantity" : 1
+        },
+        {
+            "name" : "Heroes (red)",
+            "attacks" : [ { "damage" : 4 }, { "damage" : 2, "attackType" : "fire" } ],
+            "armor" : 4,
+            "resistances" : [ "fire" ],
+            "fame" : 5,
+            "reputation" : -1,
+            "expansion" : "lost legion",
+            "quantity" : 1
+        },
+        {
+            "name" : "Heroes (white)",
+            "attacks" : [ { "damage" : 3 }, { "damage" : 2 } ],
+            "abilities" : [ "swiftness" ],
+            "armor" : 5,
+            "fame" : 5,
+            "reputation" : -1,
+            "expansion" : "lost legion",
+            "quantity" : 1
+        },
+        {
+            "name" : "Guardsmen",
+            "attacks" : [ { "damage" : 3 } ],
+            "abilities" : [ "fortified" ],
+            "armor" : 7,
+            "fame" : 3,
+            "expansion" : "base",
+            "quantity" : 3
+        },
+        {
+            "name" : "Shocktroops",
+            "attacks" : [ { "damage" : 5 } ],
+            "abilities" : [ "elusive", "unfortified" ],
+            "armor" : 3,
+            "fame" : 5,
+            "reputation" : -1,
+            "expansion" : "lost legion",
+            "quantity" : 1
+        },
+        {
+            "name" : "Swordmen",
+            "attacks" : [ { "damage" : 6 } ],
+            "armor" : 5,
+            "fame" : 4,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Thugs",
+            "attacks" : [ { "damage" : 3 } ],
+            "abilities" : [ "brutal" ],
+            "armor" : 5,
+            "fame" : 2,
+            "reputation" : 1,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        }
     ]
 }
