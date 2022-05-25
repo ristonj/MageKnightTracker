@@ -269,5 +269,229 @@
             "expansion" : "lost legion",
             "quantity" : 2
         }
+    ],
+    "violet" : [
+        {
+            "name" : "Fire Golems",
+            "attacks" : [ { "damage" : 3, "attackType" : "fire" } ],
+            "abilities" : [ "brutal" ],
+            "armor" : 4,
+            "resistances" : [ "fire", "physical" ],
+            "fame" : 5,
+            "expansion" : "base",
+            "quantity" : 1
+        },
+        {
+            "name" : "Fire Mages",
+            "attacks" : [ { "damage" : 6, "attackType" : "fire" } ],
+            "armor" : 6,
+            "resistances" : [ "fire" ],
+            "fame" : 5,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Ice Golems",
+            "attacks" : [ { "damage" : 2, "attackType" : "ice" } ],
+            "abilities" : [ "paralyze" ],
+            "armor" : 4,
+            "resistances" : [ "ice", "physical" ],
+            "fame" : 5,
+            "expansion" : "base",
+            "quantity" : 1
+        },
+        {
+            "name" : "Ice Mages",
+            "attacks" : [ { "damage" : 5, "attackType" : "ice" } ],
+            "armor" : 6,
+            "resistances" : [ "ice" ],
+            "fame" : 5,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Illusionists",
+            "attacks" : [ { "attackType" : "summon brown" } ],
+            "armor" : 3,
+            "resistances" : [ "physical" ],
+            "fame" : 4,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Magic Familiars",
+            "attacks" : [ { "damage" : 3 }, { "damage" : 3 } ],
+            "abilities" : [ "brutal", "unfortified" ],
+            "armor" : 7,
+            "fame" : 5,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Monks",
+            "attacks" : [ { "damage" : 5 } ],
+            "abilities" : [ "poison" ],
+            "armor" : 5,
+            "fame" : 5,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Sorcerers",
+            "attacks" : [ { "damage" : 6 } ],
+            "abilities" : [ "arcane immunity", "assassination", "poison" ],
+            "armor" : 6,
+            "fame" : 5,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        }
+    ],
+    "white" : [
+        {
+            "name" : "Altem Guardsmen",
+            "attacks" : [ { "damage" : 5 } ],
+            "abilities" : [ "fortified" ],
+            "armor" : 7,
+            "resistances" : [ "ice", "fire", "physical" ],
+            "fame" : 8,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Altem Mages",
+            "attacks" : [ { "damage" : 4, "attackType" : "cold fire" } ],
+            "abilities" : [ "brutal", "poison" ],
+            "armor" : 8,
+            "resistances" : [ "physical" ],
+            "fame" : 8,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Delphana Masters",
+            "attacks" : [ { "damage" : 5, "attackType" :"cold fire" } ],
+            "abilities" : [ "assassination", "paralyze" ],
+            "armor" : 8,
+            "resistances" : [ "fire", "ice" ],
+            "fame" : 9,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Fire Catapults",
+            "attacks" : [ { "damage" : 8, "attackType" : "fire" } ],
+            "abilities" : [ "cumbersome", "fortified" ],
+            "armor" : 7,
+            "fame" : 7,
+            "expansion" : "lost legion",
+            "quantity" : 1
+        },
+        {
+            "name" : "Freezers",
+            "attacks" : [ { "damage" : 3, "attackType" : "ice" } ],
+            "abilities" : [ "paralyze", "swiftness" ],
+            "armor" : 7,
+            "resistances" : [ "fire" ],
+            "fame" : 7,
+            "expansion" : "base",
+            "quantity" : 3
+        },
+        {
+            "name" : "Grim Legionaires",
+            "attacks" : [ { "damage" : 11 } ],
+            "abilities" : [ "brutal" ],
+            "armor" : 10,
+            "fame" : 8,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Gunners",
+            "attacks" : [ { "damage" : 6, "attackType" : "fire" } ],
+            "abilities" : [ "brutal" ],
+            "armor" : 6,
+            "resistances" : [ "ice" ],
+            "fame" : 7,
+            "expansion" : "base",
+            "quantity" : 3
+        },
+        {
+            "name" : "Ice Catapults",
+            "attacks" : [ { "damage" : 9, "attackType" : "ice" } ],
+            "abilities" : [ "cumbersome", "fortified" ],
+            "armor" : 6,
+            "fame" : 7,
+            "expansion" : "lost legion",
+            "quantity" : 1
+        }
+    ],
+    "red" : [
+        {
+            "name" : "Dragon Summoner",
+            "attacks" : [ { "attackType" : "summon brown" }, { "attackType" : "summon brown" } ],
+            "abilities" : [ "arcane immunity" ],
+            "armor" : 8,
+            "resistances" : [ "physical" ],
+            "fame" : 9,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Fire Dragon",
+            "attacks" : [ { "damage" : 9, "attackType" : "fire" } ],
+            "armor" : 7,
+            "resistances" : [ "fire", "physical" ],
+            "fame" : 8,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "High Dragon",
+            "attacks" : [ { "damage" : 6, "attackType" : "cold fire" } ],
+            "abilities" : [ "brutal" ],
+            "armor" : 9,
+            "resistances" : [ "fire", "ice" ],
+            "fame" : 9,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Lava Dragon",
+            "attacks" : [ { "damage" : 6, "attackType" : "fire" } ],
+            "abilities" : [ "brutal", "fortified" ],
+            "armor" : 8,
+            "resistances" : [ "fire" ],
+            "fame" : 8,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Ice Dragon",
+            "attacks" : [ { "damage" : 6, "attackType" : "ice" } ],
+            "abilities" : [ "paralyze" ],
+            "armor" : 7,
+            "resistances" : [ "physical", "ice" ],
+            "fame" : 8,
+            "expansion" : "base",
+            "quantity" : 2
+        },
+        {
+            "name" : "Storm Dragon",
+            "attacks" : [ { "damage" : 4, "attackType" : "ice" } ],
+            "abilities" : [ "elusive", "swiftness" ],
+            "armor" : 7,
+            "fame" : 7,
+            "expansion" : "lost legion",
+            "quantity" : 2
+        },
+        {
+            "name" : "Swamp Dragon",
+            "attacks" : [ { "damage" : 5 } ],
+            "abilities" : [ "poison", "swiftness" ],
+            "armor" : 9,
+            "fame" : 7,
+            "expansion" : "base",
+            "quantity" : 2
+        }
     ]
 }
