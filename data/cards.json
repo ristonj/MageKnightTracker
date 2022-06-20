@@ -1,0 +1,99 @@
+{
+    "starters" : [
+        {
+            "name" : "Rage",
+            "color" : "red",
+            "unpowered" : "Attack 2 or Block 2",
+            "powered" : "Attack 4",
+            "quantity" : 2
+        },
+        {
+            "name" : "Determination",
+            "color" : "blue",
+            "unpowered" : "Attack 2 or Block 2",
+            "powered" : "Block 5"
+        },
+        {
+            "name" : "Swiftness",
+            "color" : "white",
+            "unpowered" : "Move 2",
+            "powered" : "Ranged Attack 3",
+            "quantity" : 2
+        },
+        {
+            "name" : "March",
+            "color" : "green",
+            "unpowered" : "Move 2",
+            "powered" : "Move 4",
+            "quantity" : 2
+        },
+        {
+            "name" : "Stamina",
+            "color" : "blue",
+            "unpowered" : "Move 2",
+            "powered" : "Move 4",
+            "quantity" : 2
+        },
+        {
+            "name" : "Tranquility",
+            "color" : "green",
+            "unpowered" : "Heal 1 or draw 1 card",
+            "powered" : "Heal 2 or draw 2 cards"
+        },
+        {
+            "name" : "Promise",
+            "color" : "white",
+            "unpowered" : "Influence 2",
+            "powered" : "Influence 4"
+        },
+        {
+            "name" : "Threaten",
+            "color" : "red",
+            "unpowered" : "Influence 2",
+            "powered" : "Influence 5 and Reputation 1"
+        },
+        {
+            "name" : "Crystallize",
+            "color" : "blue",
+            "unpowered" : "When you play this, also pay one mana of a basic color. Gain a crystal of that color to your Inventory.",
+            "powered" : "Gain a crystal of any color to your inventory."
+        },
+        {
+            "name" : "Mana Draw",
+            "color" : "white",
+            "unpowered" : "You can use one additional mana die from the Source this turn.",
+            "powered" : "Take a mana die from the source and set it to any color except gold. Gain two mana tokens of that color. Do not reroll this die when you return it to the Source."
+        },
+        {
+            "name" : "Concentration",
+            "color" : "green",
+            "unpowered" : "Gain a blue, white or red mana token.",
+            "powered" : "When you play this, play another Action card with it. Get the stronger effect of that card for free. If that effect gives you Move, Influence, Block or any type of Attack, get that amount plus 2."
+        },
+        {
+            "name" : "Improvisation",
+            "color" : "red",
+            "unpowered" : "Discard another card from your hand to get Move 3, Influence 3, Attack 3 or Block 3.",
+            "powered" : "Discard another card from your hand to get Move 5, Influence 5, Attack 5 or Block 5."
+        }
+    ],
+    "HeroSpecific" : [
+        {
+            "name" : "Will Focus",
+            "color" : "green",
+            "unpowered" : "Gain a blue, white or red mana token, or gain a green crystal to your Inventory.",
+            "powered" : "When you play this, play another Action card with it. Get the stronger effect of that card for free. If that effect gives you Move, Influence, Block or any type of Attack, get that amount plus 3",
+            "replaces" : 15,
+            "hero" : "Goldyx"
+        },
+        {
+            "name" : "Noble Manners",
+            "color" : "white",
+            "unpowered" : "Influence 2. If you use this during interaction you get Fame +1 at the end of the turn.",
+            "powered" : "Influence 4. If you use this during interaction you get Fame +1 and Reputation +1 at the end of the turn.",
+            "replaces" : 11,
+            "hero" : "Norowas"
+        },
+        
+    ]
+}
