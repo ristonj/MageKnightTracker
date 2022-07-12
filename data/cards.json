@@ -93,7 +93,7 @@
             "powered" : "Influence 4. If you use this during interaction you get Fame +1 and Reputation +1 at the end of the turn.",
             "replaces" : 11,
             "hero" : "Norowas"
-        },
+        }
         
     ]
 }

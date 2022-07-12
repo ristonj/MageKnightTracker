@@ -1,9 +1,9 @@
-import { Monster } from './monster';
+import { Monster } from "./monster";
 
 export class MonsterPile
 {
     constructor(
-        public name: string,
-        public monsters: Monster[]
+        color: string,
+        monsters: Monster[]
     ) {}
 }
